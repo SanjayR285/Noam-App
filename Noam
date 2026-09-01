@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandeis Class Guide</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Brandeis Class Guide</h1>
+        <p>
+          Explore course ideas based on your major, interests, and learning preferences.
+        </p>
+        <a class="cta-button" href="#chat-box">Get Started</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card intro">
+        <h2>Find classes that fit you</h2>
+        <p>
+          This app helps incoming Brandeis students explore possible classes in a simple,
+          supportive, and organized way.
+        </p>
+      </section>
+
+      <section class="card features">
+        <h2>What this app helps with</h2>
+        <ul>
+          <li>Explore classes by major</li>
+          <li>Match courses to your interests</li>
+          <li>Consider class size and difficulty</li>
+          <li>Compare a few options at a time</li>
+        </ul>
+      </section>
+
+      <section class="card form-card" id="chat-box">
+        <h2>Tell us about yourself</h2>
+        <form>
+          <label for="major">Intended major</label>
+          <input type="text" id="major" name="major" placeholder="Example: Biology" />
+
+          <label for="interests">Academic interests</label>
+          <input type="text" id="interests" name="interests" placeholder="Example: health, research, writing" />
+
+          <label for="preferences">Course preferences</label>
+          <textarea id="preferences" name="preferences" rows="4" placeholder="Example: small classes, discussion-based, beginner-friendly"></textarea>
+
+          <button type="submit">Get Course Suggestions</button>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
